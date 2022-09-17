@@ -1,8 +1,2 @@
-from collections import namedtuple
+from deepClassifier.entity.config_entity import DataIngestionConfig
 
-DataIngestionConfig = namedtuple("DataIngestionConfig", [
-    "root_dir",
-    "source_URL",
-    "local_data_file",
-    "unzip_dir"
-])
